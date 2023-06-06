@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const connection = async() => {
 
     try {
-        //contrasenia oculta, no te va a funcionar ele codigo
+        //contrasenia oculta, no te va a funcionar el codigo (cambialo por tu propia bdd)
         await mongoose.connect("mongodb+srv://loreto:<password>@arduino-db-connection.gnu7ysr.mongodb.net/arduino")
 
         console.log('Conectado a la db')
