@@ -1,4 +1,12 @@
-# RUTAS 
+# API AquaCare
+
+## Inicializar servidor 
+
+```
+npm start
+```
+
+## Rutas
 
 ### Ruta para Login
 
