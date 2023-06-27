@@ -11,7 +11,7 @@ connection();
 
 // Servidor de node
 const app = express();
-const port = 2901;
+const port = process.env.PORT || 2901;
 
 //cors
 app.use(cors());
